@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Faustina';
+    src: url('arte/Faustina/Faustina-VariableFont_wght.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Lato';
+    src: url('arte/Lato/Lato-Regular.ttf')
 }
+
+body {
+  margin: 0;
+  background-color: #00753B;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Faustina';
+    font-size: 30px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-left: 85px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin-left: 85px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    max-height: 78px;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.header li {
+    float: left;
+    display:block;
+    margin-top: 0px;
+}
+
+a.underlined {
+    text-decoration: underline;
+}
+
+
+/* Content */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-container {
+    text-align: center;
+}
+
+
+.option {
+    float: left;
+    padding: 10px 20px;
+    margin: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    transition: 0.3s;
+    font-family: 'Lato';
+    font-size: 1.5em;
+}
+
+.option:hover {
+    background-color: #015e30;
+}
+
+
+.icon {
+    max-height: 185px;
+}
+
+
+
+
+
+
+
+
+
+
