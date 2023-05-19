@@ -47,10 +47,12 @@ h2 {
     font-size: 0.75em;
     margin-left: 85px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .logo {
     max-height: 78px;
+    margin-top: 3px;
 }
 
 .header {
